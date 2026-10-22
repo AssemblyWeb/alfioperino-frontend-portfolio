@@ -29,6 +29,7 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser. The development server reloads as you edit files.
+If port 3000 is already occupied, Next.js will select another available port and print its URL. In development, the site is served from `/`; the GitHub Pages base path is applied only to production builds.
 
 ## Available scripts
 
@@ -41,7 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser. The develop
 ## Project structure
 
 - `app/page.tsx` — portfolio page and project content
-- `app/layout.tsx` — root layout, metadata, and analytics
+- `app/layout.tsx` — root layout, metadata
 - `app/globals.css` — site styling, responsive rules, and print styles
 - `public/projects/` — project preview images
 - `public/icon.svg` — site favicon

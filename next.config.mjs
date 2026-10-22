@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
+const basePath = '/alfioperino-frontend-portfolio'
+const isProduction = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   output: 'export',
-  basePath: '/alfioperino-frontend-portfolio',
-  assetPrefix: '/alfioperino-frontend-portfolio/',
+  basePath: isProduction ? basePath : '',
+  assetPrefix: isProduction ? `${basePath}/` : undefined,
   typescript: {
     ignoreBuildErrors: true,
   },
