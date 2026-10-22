@@ -4,35 +4,32 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Alfio Perino | Frontend Designer',
   description:
-    'Portfolio de Alfio Perino, frontend designer en Buenos Aires. Proyectos de diseño y desarrollo frontend, accesibilidad y productos digitales.',
+    'Portfolio of Alfio Perino, frontend designer based in Buenos Aires. Digital product design, frontend development, accessibility, and UI engineering.',
   applicationName: 'Alfio Perino Portfolio',
   authors: [{ name: 'Alfio Perino' }],
-  icons: {
-    icon: '/icon.svg',
-  },
   openGraph: {
     title: 'Alfio Perino | Frontend Designer',
     description:
-      'Portfolio de Alfio Perino, frontend designer en Buenos Aires. Proyectos de diseño y desarrollo frontend, accesibilidad y productos digitales.',
+      'Portfolio of Alfio Perino, frontend designer based in Buenos Aires. Digital product design, frontend development, accessibility, and UI engineering.',
     siteName: 'Alfio Perino Portfolio',
-    locale: 'es_AR',
+    locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary',
     title: 'Alfio Perino | Frontend Designer',
     description:
-      'Portfolio de Alfio Perino, frontend designer en Buenos Aires. Proyectos de diseño y desarrollo frontend, accesibilidad y productos digitales.',
+      'Portfolio of Alfio Perino, frontend designer based in Buenos Aires. Digital product design, frontend development, accessibility, and UI engineering.',
   },
 }
 
-export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
-}
+// export const viewport: Viewport = {
+//   colorScheme: 'light dark',
+//   themeColor: [
+//     { media: '(prefers-color-scheme: light)', color: 'white' },
+//     { media: '(prefers-color-scheme: dark)', color: 'black' },
+//   ],
+// }
 
 export default function RootLayout({
   children,
